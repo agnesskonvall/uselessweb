@@ -1,4 +1,4 @@
-INSERT MANDATORY GIF
+<iframe src="https://giphy.com/embed/EBId5v0YNRyPGHytLK" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/theoffice-nbc-the-office-tv-EBId5v0YNRyPGHytLK">via GIPHY</a></p>
 
 # Project Title
 
