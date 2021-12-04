@@ -1,0 +1,22 @@
+body {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 250px;
+  height: 100px;
+}
+
+button:active {
+  transform: translate(-250px, -250px);
+}
+
+@media screen and (min-width: 769px) {
+  button:hover {
+    transform: translate(-250px, -250px);
+  }
+}
