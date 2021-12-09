@@ -1,12 +1,15 @@
 ![Dwight speaking](https://media.giphy.com/media/EBId5v0YNRyPGHytLK/giphy.gif)
 
-# Project Title
+# Button clicker
 
-Text about the project. This would also be a great place to link the game on Netlify.
+Do you want a button that can't be clicked? You've come to the right place! The app keeps score of how many times you didn't click the button. Best your friends in how many times you missed the button! 
+
+Available on netlify @ uselesswebproject.netlify.app
 
 # Installation
 
-Add the installation instructions.
+1. Clone repo from GitHub.
+2. Get to clicking!
 
 # Code Review
 
