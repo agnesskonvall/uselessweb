@@ -5,20 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
     <title>Button masher</title>
   </head>
-  <body class="lightTheme" id="root">
-    <h1>Click the button!</h1>
-    <label class="switch">
-      <i class="fas fa-adjust"></i>
-      <div>
-        <input type="checkbox" />
-        <span class="slider round"></span>
-      </div>
-    </label>
-    <button>Click me!</button>
-    <button class="count"></button>
-    <div class="messageButton" id="message"></div>
-    <script src="script.js"></script>
+  <body>
+    <h1 id="title">Click the button!</h1>
+    <div id="clicker">
+      <button class="simple">Click me!</button> <br /><br />
+    </div>
+    <div id="counter">0</div>
+    <p>times you missed the button!</p>
+    <br />
+    <br />
+    <p id="message"></p>
+    <br /><br />
+    <p id="made"></p>
   </body>
 </html>

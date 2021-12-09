@@ -1,28 +1,49 @@
-const button = document.querySelector('.celebration-button');
-const counter = document.querySelector('body');
-let count = 0;
+function addDarkmodeWidget() {
+  new Darkmode().showWidget();
+}
+window.addEventListener('load', addDarkmodeWidget);
 
-button.addEventListener('click', () => {
+const madeBy = ['Made by', ' Agnes', ' Skönvall'];
+const made = document.getElementById('made');
+
+madeBy.forEach((element) => {
+  made.textContent += element;
+});
+
+document.getElementById('clicker').addEventListener('click', function (event) {
+  let count = document.getElementById('counter').textContent;
+  parseInt(count);
   count++;
-  counter.textContent = count;
+  document.getElementById('counter').textContent = count;
 });
 
-const message = document.getElementById('message');
-const bodyArea = document.getElementById('body');
+const countEl = document.getElementById('counter');
+const buttonEl = document.getElementById('clicker');
+const messageEl = document.getElementById('message');
 
-const messages = [
-  "Oh. You thought you had it, didn't you?",
-  "You're supposed to click the button, not me!",
-  'Try again!',
-];
+const increment = (() => {
+  let i = 1;
 
-bodyArea.addEventListener('click', () => {
-  const randomElement = messages[Math.floor(Math.random() * messages.length)];
-  message.innerHTML = randomElement;
+  return () => i++;
+})();
+
+buttonEl.addEventListener('click', () => {
+  buttonEl.addEventListener('click', () => {
+    if (increment() === 10) {
+      messageEl.textContent = "You're supposed to click the button!";
+    }
+  });
 });
 
-const themeSwitch = document.querySelector('input');
+let title = document.getElementById('title');
 
-themeSwitch.addEventListener('change', () => {
-  document.body.classList.toggle('dark-theme');
-});
+title.addEventListener(
+  'mouseover',
+  function (event) {
+    event.target.style.color = 'purple';
+    setTimeout(function () {
+      event.target.style.color = '';
+    }, 500);
+  },
+  false
+);
