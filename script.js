@@ -1,8 +1,3 @@
-function addDarkmodeWidget() {
-  new Darkmode().showWidget();
-}
-window.addEventListener('load', addDarkmodeWidget);
-
 const madeBy = ['Made by', ' Agnes', ' Skönvall'];
 const made = document.getElementById('made');
 
