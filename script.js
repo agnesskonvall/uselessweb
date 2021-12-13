@@ -35,6 +35,15 @@ buttonEl.addEventListener('click', () => {
   });
 });
 
+function blueBackground() {
+  if (window.scrollY > window.innerHeight / 6) {
+    document.body.classList.add('blue');
+  } else {
+    document.body.classList.remove('blue');
+  }
+}
+window.addEventListener('scroll', blueBackground);
+
 let title = document.getElementById('title');
 
 title.addEventListener(
