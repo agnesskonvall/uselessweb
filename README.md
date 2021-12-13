@@ -2,7 +2,7 @@
 
 # Button clicker
 
-Do you want a button that can't be clicked? You've come to the right place! The app keeps score of how many times you didn't click the button. Best your friends in how many times you missed the button! 
+Do you want a button that can't be clicked? You've come to the right place! The app keeps score of how many times you didn't click the button. Best your friends in how many times you missed the button!
 
 Available on netlify @ uselesswebproject.netlify.app
 
