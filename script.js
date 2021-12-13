@@ -30,14 +30,14 @@ buttonEl.addEventListener('click', () => {
   });
 });
 
-function blueBackground() {
+function changeBackground() {
   if (window.scrollY > window.innerHeight / 6) {
-    document.body.classList.add('blue');
+    document.body.classList.add('scroll');
   } else {
-    document.body.classList.remove('blue');
+    document.body.classList.remove('scroll');
   }
 }
-window.addEventListener('scroll', blueBackground);
+window.addEventListener('scroll', changeBackground);
 
 let title = document.getElementById('title');
 

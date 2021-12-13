@@ -74,7 +74,7 @@ title {
   transform: translate(-250px, -250px);
 }
 
-.blue {
+.scroll {
   background-color: var(--background-scroll);
 }
 
