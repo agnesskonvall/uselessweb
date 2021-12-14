@@ -34,8 +34,9 @@ p {
   display: inline-block;
 }
 
-title {
+#title {
   z-index: 1000;
+  padding-top: 400px;
 }
 
 #clicker {
@@ -100,5 +101,8 @@ footer {
     font-family: BebasNeue-Regular;
     justify-content: center;
     align-items: center;
+  }
+  #title {
+    padding-top: 0px;
   }
 }
